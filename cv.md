@@ -18,4 +18,20 @@ I have almost no experience in programming, but I really want to learn something
 * Python (Basics)
 
 ### **Experience**
+### **Code example**
 
+
+```javascript
+function sum(a, b) {
+return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+
+### **Education**
+University: "ITMO, applied and theoretical physics"
+
+### **English**
+B1 (I have been studying English all my life, I often watch videos in English)
