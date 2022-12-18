@@ -5,24 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="education.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="codeabout.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <div class="header">HEADER</div>
-            <div class="menu">MENU</div>
-            <div class="content">CONTENT</div>
+<!-- <div class="polosa">
+    
+</div> -->
+    <header class="header">
+        <nav class = "header-nav">
+            <div class="header-link-point"></div>
+            <a class = "header-link" href = "#Contacts">Contacts</a>
+            <div class="header-link-point"></div>
+            <a class = "header-link" href = "#About me">About me</a>
+            <div class="header-link-point"></div>
+            <a class = "header-link" href = "#Skills">Skills</a>
+            <div class="header-link-point"></div>
+            <a class = "header-link" href = "#Code example">Code example</a>
+            <div class="header-link-point"></div>
+            <a class = "header-link" href = "#Education">Education</a>
+            <div class="header-link-point"></div>
+            <a class = "header-link" href = "#Education">English</a>
+
+        </nav>
+    </header>
+    <main class="main">
+        <!-- <div class="img"></div> -->
+        <div class="me">
+            <figure class="effect">
+                <img src="photos and logotypes\я.jpg" alt="my_photo">
+                <figcaption>
+                    <h3 class="greeting">Hello!!!</h3>
+                    <p>I am Olga Loginova</p>
+                </figcaption>
+            </figure>
         </div>
-
-
-
-
-        <div class="footer">
-            <div class="footer-content">
-            <a href="https://github.com/olechkakulic" class="main-text" id="github"> Github </a>
+        <div id = 'Contacts' class = "Contacts">
+            <div class="headcontacts">
+                <p>Contacts</p>
+                <a href="https://github.com/olechkakulic">
+                    <img class="svg" src="photos and logotypes\gitgub.png" alt="github">
+                </a>
+                <a href="https://vk.com/krinzh_umer">
+                    <img class="svg" src="photos and logotypes\vk.jpg" alt="svg">
+                </a>
+                <a href="mailto:olaloginova599@gmail.com">
+                    <img class="svg" src="photos and logotypes\email.png" alt="svg">
+                </a>
             </div>
-        </div>
+            <ul>
+                <li>
+                    <a class = "contacts-link" href="mailto:olaloginova599@gmail.com"><span class="social">Email:</span> olaloginova599@gmail.com</a>
+                </li>
+                <li>
+                    <a class = "contacts-link" href="https://github.com/olechkakulic"><span class="social">GitHub:</span> olechkakulic</a>
+                </li>
+                <li>
+                    <a class = "contacts-link" href="https://vk.com/krinzh_umer"><span class="social">VK</span>: Olga Loginova</a>
+                </li>
+            </ul>
+        </div>        
     </main>
+    <section class="Aboutme">
+        <div class="Info">
+            <div id = "About me" class="infoabout">About me</div>
+        </div>
+        <p class="infoabout"> I have almost no experience in programming, but I really want to learn something new! We studied Python a bit at university, and I'm also familiar with Java. I have such qualities as perseverance, responsibility, ability to work in a team.</p>
+    </section>
+
+    <section id = "Skills" class = "Skills">
+        <div class="Info">
+            <div class="infoabout">Skills</div>
+        </div>       
+        <div class="grid">
+            <!-- <img class="prog1" src="proga\proga.jpeg" alt="computer"> -->
+            <img class="prog2" src="proga\pro.jpg" alt="computer">
+            <img class="prog3" src="proga\1615845915524.jpg" alt="computer">
+            <p class="text1">
+                "A fool, deprived of the ability to laugh at himself with others, will not be able to endure programming for a long time."
+
+                Gerald Marvin Weinberg</p>
+            <div class="grid-item1">
+                <div class="stage">
+                    <div class="box bounce-1">
+                        <img class="svg" src="lang\html.png" alt="css">
+                    </div>
+                </div>
+                <p class="langues">HTML (Basics)</p>
+            </div>
+            <div class="grid-item2">
+                <div class="stage">
+                    <div class="box bounce-1">
+                        <img class="svg" src="lang\сss.png" alt="css">
+                    </div>
+                </div>                
+                <p class="langues">CSS (Basics)</p>
+            </div>
+
+            <div class="grid-item3">
+                <div class="stage">
+                    <div class="box bounce-1">
+                        <img class="svg" src="lang\js.png" alt="css">
+                    </div>
+                </div> 
+                <p class="langues"> JavaScript (Basics)</p>
+            </div>
+
+            <div class="grid-item4">
+                <div class="stage">
+                    <div class="box bounce-1">
+                        <img class="svg" src="lang\java.png" alt="css">
+                    </div>
+                </div> 
+                <p class="langues">Java (Basics)</p>
+            </div>
+
+            <div class="grid-item5">
+                <div class="stage">
+                    <div class="box bounce-1">
+                        <img class="svg" src="lang\python.png" alt="css">
+                    </div>
+                </div> 
+                <p class="langues">Python (Basics)</p>
+            </div>   
+        </div>
+    
+    </section>
+    <section id="Education" class = "Education">
+        <div class="Info">
+            <div class="infoabout">Education</div>
+        </div> 
+        <p class="inf">
+            University: "ITMO, applied and theoretical physics"
+        </p>
+    </section>
+    <section id = 'Code example' class = "Code example">
+        <div class="Info">
+            <div class="infoabout">Code example</div>
+        </div>
+        <div class="flex">
+            <div class="code_example">
+                <pre>
+                    <code>function sum(a, b) {
+                    return a + b;
+                    }
+                    
+                    let result = sum(1, 2);
+                    alert( result );</code>
+                </pre>
+            </div>
+            <div class="codeabout">
+                Solving the problem from
+                the Codewars.
+            </div>
+        </div> 
+    </section>
+    
+    <section id="English" class="English">
+        <div class="Info">
+            <div class="infoabout">English</div>
+        </div>
+        <p class="inf">
+            B1 (I have been studying English all my life, I often watch videos in English)
+        </p>
+    </section>
+    <div class="footer">
+        <nav class = "footer-nav">
+            <a href="https://github.com/olechkakulic" class="footer-link"> Github </a>
+            <a href="https://rs.school/js/">
+                <img class="svgfooter" src="lang\rs_school_js.svg" alt="svg">
+            </a>
+            <p class="footeryear">2021</p>
+        </nav>
+    </div>
 </body>
 </html>
