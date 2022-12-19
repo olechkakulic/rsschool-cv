@@ -1,0 +1,51 @@
+.header{
+    /* чтобы все элементы выстроились в строчку */
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: auto; 
+    margin-bottom:1px;
+    box-shadow: 0px 2px 4px rgba(38, 50, 0, 16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+    background-color: #F0F8FF;
+    border-radius:10px ;
+    position: fixed;
+    z-index: 6;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto 
+    
+}
+.header-link:hover,
+.header-link:focus {
+    color: #708090;
+}
+.header-link-point{
+    background: #708090;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 14px;
+}
+.header-link{
+    /* нет подчеркивания у ссылки */
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-family-r);
+    color: var(--color-purple-dark);
+    /* убираем обводку */
+    outline: none;
+    background-color: var(--color-whitelight);
+    padding: 10px;
+    transition: 0.5s linear;
+    border-radius: 10px;
+}
+.header-link:hover,
+.header-link:focus {
+    background-color:#FFF0F5;
+}

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+:root {
+    --color-whitelight:#e4ece4;
+    --color-bluelight:azure;
+    /* --color-brownlight: */
+    --font-family-b: InterB, sans-serif ;
+    --font-family-m: InterM, sans-serif ;
+    --font-family-r: InterR, sans-serif ;
+    --font-family-l: InterL, sans-serif ;
+    --font-size-headers: 20px;
+}
